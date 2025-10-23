@@ -6,12 +6,12 @@
 
 
 
-As a part of my course assignment [BIOMOLECULAR MODELLING BIO F417] on reporting on CASP16, I wanted to get a hands on feel into what AlphaFold-2 can do.
+As a part of my course assignment [BIOMOLECULAR MODELLING BIO F417] on reporting on CASP16, I wanted to get a hands on feel into how close AlphaFold-2 can predict 3D structures of proteins.
 
-This is a So this is a super short, yet super fun way project exploring how protein sequence length affects AlphaFold2 prediction accuracy
+This is a super short, yet super fun project exploring how protein sequence length affects AlphaFold2 prediction accuracy
 This repo contains scripts to download experimental structures, compare them with predicted structures, and visualise the results in 3D.
 
-PLEASE NOTE: The current sample size is too small, I intend to keep adding newer proteins as I go along
+PLEASE NOTE: The current sample size is too small (4 sequences), I intend to keep adding newer proteins as I go along
 
 - Computing RMSD between predicted (AlphaFold) and native (PDB) structures
 - Extracting mean pLDDT per protein from AlphaFold predictions
